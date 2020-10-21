@@ -13,11 +13,11 @@ val radio= area/(2*3.1416)
 
 def numero_primo(n :Int) : Boolean = 
 {
-    //if (n <= 1)
+    if (n <= 1)
     false
     else (n==2)
     true
-   // !(2 to (n-1)).exists(x=> n % x==0)
+   !(2 to (n-1)).exists(x=> n % x==0)
 }
 
 //3.Dada la variable bird = "tweet", utiliza interpolación de string para imprimir "Estoy escribiendo un tweet"
