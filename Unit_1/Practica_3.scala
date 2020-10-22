@@ -42,7 +42,7 @@ val af= List(1,7,7)
 println(afortunado(af))
 
 //This method named "afortunado" receives a list of integers and make a summation of the elements but if the list includes de number "7"
-// in place of that number adds de number "14"
+// in place of that number adds the number "14"
 
 def balance(list:List[Int]): Boolean={
     var primera = 0
