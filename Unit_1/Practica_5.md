@@ -80,7 +80,7 @@ df.takeAsList(6)
 
 df.first()
 
-// 12. Return the summatory of the bonus
+// 12. Return the summary of the bonus
 
 df.select(sum("bonus")).show()
 
