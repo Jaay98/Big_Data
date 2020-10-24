@@ -22,16 +22,16 @@ Fecha:
 
 
 
-###Práctica 1.
+###Practice 1.
 
-1.Calcular el radio  de un círculo
+1.Calculate the radius of a circle
 
 ~~~
 val area=98
 val radio= area/(2*3.1416)
 ~~~
 
-2.Definir si un número es primo
+2.Define if a number is even
  ~~~
 def numero_primo(n :Int) : Boolean = 
 {
@@ -43,23 +43,23 @@ def numero_primo(n :Int) : Boolean =
 }
 ~~~
 
-3.Dada la variable bird = "tweet", utiliza interpolación de string para imprimir "Estoy escribiendo un tweet"
+3.Using the variable bird = "tweet", use string interpolation to print "I'm writing a tweet"
 ~~~
 var bird= "tweet"
 println ("Estoy escribiendo un" + bird)
 ~~~
 
-4. Dada la variable mensaje = "Hola Luke yo soy tu padre!" utiliza slice para extraer la secuencia "Luke"
+4. Using the variable message = "Hi Luke, I'm your father!" use slice to extract the sequence "Luke"
 
 ~~~
 var mensaje = "Hola Luke soy  tu padre!"
 mensaje.slice(5,9)
 ~~~
 
-5. ¿Cuál es la diferencia entre value y una variable en scala?
-Un valor es inmutable, en cambio la variable si puede cambiar de valor
+5. What is the difference between value and a variable in scala?
+A value is immutable, instead the variable can change its value
 
-6. Dada la tupla (2,4,5,1,2,3,3.1416,23) regresa el número 3.1416
+6. Using the tuple (2,4,5,1,2,3,3.1416,23) returns the number 3.1416
 
 ~~~
 val tupla = (2,4,5,1,2,3,3.1416,23)
