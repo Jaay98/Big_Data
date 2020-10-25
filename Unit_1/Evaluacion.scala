@@ -56,12 +56,12 @@ df.filter($"Close"<600).count()
 df.select(corr("High","Volume")).show()
 
 //  d. ¿Cuál es el máximo de la columna “High” por año? 
-val yeardf = df.withColumn("Year",year(df("Date")))
-val yearmaxs = yeardf.select($"Year",$"High").groupBy("Year").max()
+val yeardataframe = df.withColumn("Year",year(df("Date")))
+val yearmaxs = yeardataframe.select($"Year",$"High").groupBy("Year").max()
 val res = yearmaxs.select($"Year",$"max(High)")
 res.orderBy("Year").show()
 
 // e. ¿Cuál es el promedio de columna “Close” para cada mes del calendario? 
-val monthdf = df.withColumn("Month",month(df("Date")))
-val monthavgs = monthdf.select($"Month",$"Close").groupBy("Month").mean()
-monthavgs.select($"Month",$"avg(Close)").orderBy("Month").show()
+val monthdataframe = df.withColumn("Month",month(df("Date")))
+val monthavg = monthdataframe.select($"Month",$"Close").groupBy("Month").mean()
+monthavg.select($"Month",$"avg(Close)").orderBy("Month").show()
