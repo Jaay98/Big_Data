@@ -1,12 +1,7 @@
-//Evaluacion
-//Author Alvarez Yanez Jose Alonso
-//17210526
-
 //Authors: Alonso Alvarez, Yim Quiroz
 //Instituto Tecnologico de Tijuana
 //Materia: Datos Masivos
 //Evaluacion Unidad 1
-
 
 //1-Comienza una simple sesión Spark
 import org.apache.spark.sql.SparkSession
@@ -46,13 +41,14 @@ df.select(max("Volume")).show()
 df.select(min("Volume")).show()
 
 //11.
-//  $ Sintaxis Scala/Spark
+
+//Sintaxis Scala/Spark
 import spark.implicits._
 
 // a. ¿Cuántos días fue la columna “Close” inferior a $ 600? 
 df.filter($"Close"<600).count()
 
-//df.filter("Close < 600").count()
+
 //b. ¿Qué porcentaje del tiempo fue la columna “High” mayor que $ 500?
 (df.filter($"High" > 500).count() * 1.0/ df.count())*100
 
