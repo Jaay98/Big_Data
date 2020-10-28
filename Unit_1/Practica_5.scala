@@ -3,7 +3,11 @@
 //17210526
 
 
+<<<<<<< Updated upstream
 //Practice 5 dataframe functions for spark
+=======
+//Practice 15 dataframe functions for spark
+>>>>>>> Stashed changes
 
 //First we import the library
 
@@ -64,7 +68,11 @@ df.takeAsList(6)
 
 df.first()
 
+<<<<<<< Updated upstream
 // 12. Return the summary of the bonus
+=======
+// 12. Return the summatory of the bonus
+>>>>>>> Stashed changes
 
 df.select(sum("bonus")).show()
 
