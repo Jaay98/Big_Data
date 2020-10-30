@@ -2,7 +2,7 @@
 //Instituto Tecnologico de Tijuana
 //Materia: Datos Masivos
 //Evaluacion Unidad 1
-
+/////////////////////////////
 /*The first step is to import the library to create an entry point 
 to sqlspark and create a session in spark*/
 import org.apache.spark.sql.SparkSession 
