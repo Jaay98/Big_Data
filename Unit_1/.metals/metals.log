@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-2020.10.23 19:02:03 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\ASUS S510U\OneDrive\Documentos\8vo Semestre\Datos_Masivos\Big_Data\Unit_1' for client vscode.
-2020.10.23 19:02:05 INFO  time: initialize in 1.06s
-2020.10.23 19:02:07 WARN  no build tool detected in workspace 'C:\Users\ASUS S510U\OneDrive\Documentos\8vo Semestre\Datos_Masivos\Big_Data\Unit_1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
-2020.10.23 19:02:13 INFO  no build target: using presentation compiler with only scala-library
-2020.10.23 19:02:13 WARN  no build target for: C:\Users\ASUS S510U\OneDrive\Documentos\8vo Semestre\Datos_Masivos\Big_Data\Unit_1\Practica_5.scala
-2020.10.23 19:03:10 INFO  shutting down Metals
-2020.10.23 20:18:32 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\ASUS S510U\OneDrive\Documentos\8vo Semestre\Datos_Masivos\Big_Data\Unit_1' for client vscode.
-2020.10.23 20:18:32 INFO  time: initialize in 0.32s
-2020.10.23 20:18:33 WARN  no build tool detected in workspace 'C:\Users\ASUS S510U\OneDrive\Documentos\8vo Semestre\Datos_Masivos\Big_Data\Unit_1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
-2020.10.23 20:18:36 INFO  no build target: using presentation compiler with only scala-library
-2020.10.23 20:18:36 WARN  no build target for: C:\Users\ASUS S510U\OneDrive\Documentos\8vo Semestre\Datos_Masivos\Big_Data\Unit_1\Practica_5.scala
-2020.10.23 20:18:54 INFO  shutting down Metals
-=======
 2020.10.24 19:02:45 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\alons\OneDrive\Escritorio\Universidad\Datos Masivos\Big_Data\Unit_1' for client vscode.
 2020.10.24 19:02:46 INFO  time: initialize in 0.64s
 2020.10.24 19:02:47 WARN  no build tool detected in workspace 'C:\Users\alons\OneDrive\Escritorio\Universidad\Datos Masivos\Big_Data\Unit_1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
@@ -96,4 +82,6 @@
 2020.10.26 14:34:42 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\alons\OneDrive\Escritorio\Universidad\Datos Masivos\Big_Data\Unit_1' for client vscode.
 2020.10.26 14:34:42 INFO  time: initialize in 0.53s
 2020.10.26 14:34:47 WARN  no build tool detected in workspace 'C:\Users\alons\OneDrive\Escritorio\Universidad\Datos Masivos\Big_Data\Unit_1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
->>>>>>> 4609b0ae5cc007b6b8beef48e2d848e74a8d169f
+Oct 26, 2020 2:35:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.10.26 14:36:11 INFO  shutting down Metals
